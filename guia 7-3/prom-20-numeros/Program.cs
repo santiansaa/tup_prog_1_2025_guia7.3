@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _20_numeros_para
+namespace prom_20_numeros
 {
     class Program
     {
-        static int num,acum,cont;
+        static int num, acum, cont;
         static double prom;
 
         static void Main(string[] args)
         {
-           
+
             acum = 0;
-            for (int i = 0; i < 20; i++) 
+            for (int i = 0; i < 20; i++)
             {
-                
+
                 Console.WriteLine($"ingrese el numero {i + 1}");
                 num = Convert.ToInt32(Console.ReadLine());
                 acum = acum + num;
